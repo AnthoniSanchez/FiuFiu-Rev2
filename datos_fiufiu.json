@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "siguiente_transaccion": 1,
+  "usuarios": [
+    {
+      "id": "U001",
+      "nombre": "Antho",
+      "correo": "antho@fiufiu.csxo",
+      "saldo_ventas": 0,
+      "favoritos": [],
+      "carrito": []
+    },
+    {
+      "id": "U002",
+      "nombre": "Aldo",
+      "correo": "aldido@gmail.com",
+      "saldo_ventas": 0,
+      "favoritos": [],
+      "carrito": []
+    },
+    {
+      "id": "U003",
+      "nombre": "Mel",
+      "correo": "kimmely-uwu@hola.com",
+      "saldo_ventas": 0,
+      "favoritos": [],
+      "carrito": []
+    }
+  ],
+  "articulos": [
+    {
+      "codigo": "A001",
+      "nombre": "Teclado mecánico",
+      "precio": 35000,
+      "stock": 5,
+      "vendedor": "U002",
+      "tipo": "Nuevo",
+      "meses_garantia": 12
+    },
+    {
+      "codigo": "A002",
+      "nombre": "Audífonos gamer",
+      "precio": 18000,
+      "stock": 3,
+      "vendedor": "U003",
+      "tipo": "Usado",
+      "estado_conservacion": "Buen estado"
+    },
+    {
+      "codigo": "A003",
+      "nombre": "Mouse inalámbrico",
+      "precio": 15000,
+      "stock": 8,
+      "vendedor": "U001",
+      "tipo": "Nuevo",
+      "meses_garantia": 6
+    }
+  ],
+  "transacciones": []
+}
